@@ -1,0 +1,187 @@
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: rgb(155, 30, 30);
+}
+
+#about,
+#work,
+#contact {
+    height: 600px;
+}
+
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+
+/***** HEADER *****/
+
+#about-page {
+    height: 100px;
+    padding: 50px;
+}
+
+#home {
+    height: 800px;
+    background: url('../img/ground-shadow.png');
+    background-size: cover;
+}
+
+header h1 {
+    padding: 30px 0;
+    font-family: 'Monoton', cursive;
+    font-size: 35px;
+    color: #0f0101;
+    clear: both;
+}
+
+nav {
+    float: right;
+    padding: 10px 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: lightgrey;
+    padding-left: 80px;
+    font-family: 'Monoton', cursive;
+}
+
+
+/***** ABOUT *****/
+
+#about .full-width {
+    padding: 25px 0px;
+}
+
+#about h2 {
+    font-family: 'Monoton', cursive;
+    padding: 0 50px 0 0;
+    font-size: 36px;
+    text-align: center;
+    background: grey;
+    border: dotted black;
+}
+
+#about p {
+    font-size: 24px;
+    color: black;
+    line-height: 40px;
+    padding: 10px 30px 10px 30px;
+    border: dotted black;
+    text-align: center;
+}
+
+#about img {
+    height: 425px;
+    padding: 0 20px;
+}
+
+
+/***** WORK *****/
+
+#work {
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 150px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    font-size: 24px;
+    width: 125px;
+    margin: 0 auto;
+}
+
+#work p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: #2b2b2b;
+    padding: 0 35px;
+}
+
+
+/***** CONTACT *****/
+
+.full-width {
+    padding: 110px 0;
+}
+
+#contact-img {
+    border: 12px solid #ffffff;
+}
+
+#contact h2,
+#email-header,
+#socialmedia-header,
+#contact ul {
+    padding-left: 115px;
+}
+
+#envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+}
+
+#email-header {
+    font-size: 32px;
+    font-weight: 400;
+    margin: -30px 0 5px 0;
+}
+
+#socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    margin: 40px 0 0 0;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 29px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 48px;
+}
